@@ -269,3 +269,67 @@ header.page-header {
      top: 380px;
      box-shadow: 0px 0px 220px 91px rgba(255,255,255,1);
 }
+
+.main-section .info {
+     width: 100%;
+     height: 900px;
+     background-color: #0149a1;
+     margin-top: 3px;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     flex-basis: 50%;
+     position: relative;
+}
+
+.main-section .info .section-header {
+     padding: 100px 0;
+     
+}
+
+.main-section .info .section-header h1 {
+     margin: 0;
+     font-size: 72px;
+     text-align: center;
+     color: #fdfdfe
+}
+
+.main-section .info .section-header p {
+     margin: 0;
+     font-size: 36px;
+     color: #5483bb;
+}
+
+.main-section .info .container {
+     display: flex;
+     flex-flow: row;
+     margin: 0 430px;
+     justify-content: center;
+     flex-shrink: 0;
+}
+
+.main-section .info .container > img, p {
+     padding: 0 30px;
+     flex-basis: 50%;
+}
+
+.main-section .info .container img {
+     max-width: auto;
+}
+
+.main-section .info .container p {
+     width: 517px;
+     color: #fff;
+     text-align: justify;
+     font-size: 18px;
+     line-height: 2em;
+}
+
+.main-section .info a.btn-white {
+     color: #0149a1;
+     background-color: #fff;
+     position: absolute;
+     top: 725px;
+     padding: 16px 51px;
+     font-weight: bold;
+}
