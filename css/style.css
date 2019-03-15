@@ -152,7 +152,7 @@ header.page-header {
 
 .btn, .btn-primary {
      background-color: #ff2d55;
-     padding: 14px 35px;
+     padding: 14px 50px;
      border-radius: 40px;
      font-size: 14px;
      color: #fff;
@@ -436,7 +436,122 @@ header.page-header {
 
 .team-members-section {
      height: 930px;
+     background-color: #edeff1;
+     margin: 10px auto 0px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     flex-basis: 100%;
+     flex-flow: column;
+     position: relative;
+}
+
+.team-members-header {
+     margin-bottom: 6em;
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     top: 110px;
+}
+
+.team-members-header > h1 {
+     color: #0149a1;
+     font-size: 4.2em;
+     margin: 0;
+}
+
+.team-members-header > p {
+     font-size: 2em;
+}
+
+.team-members-section .team-members {
+     margin: 170px 0 0;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     width: 1170px;
+}
+
+.team-members-section > .btn {
+     margin-top: 70px;
 }
 
 
 
+.team-members h3 {
+     font-size: 30px;
+     font-weight: bold;
+     text-transform: capitalize;
+     padding-top: 36px;
+}
+
+.team-item {
+     width: 25%;
+     margin-right: 1em;
+}
+
+.team-members p {
+     font-size: 18px;
+     font-weight: 100;
+     text-transform: capitalize;
+     padding-top: 30px;
+}
+
+
+   /*
+
+          TEAM MEMBERS ENDS
+
+ */
+
+    /*
+
+          GOOGLE MAPS
+
+ */
+
+
+section.google-maps {
+     width: 100%;
+     height: 592px;
+     background-image: url("../img/google-maps.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+  /*
+
+          GOOGLE MAPS ENDS
+
+ */
+
+
+   /*
+
+          FOOTER
+
+ */
+
+
+ footer.page-footer {
+     height: 730px;
+     width: 100%;
+     background-color: #0149a1;
+     margin: 0 auto;
+     
+ }
+
+ section.links {
+     width: 100%;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+
+ }
+
+ .link-columns a {
+     margin-top: 20px;
+ }
