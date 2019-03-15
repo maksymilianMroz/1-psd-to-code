@@ -536,22 +536,40 @@ section.google-maps {
  */
 
 
- footer.page-footer {
+footer.page-footer {
      height: 730px;
      width: 100%;
-     background-color: #0149a1;
-     margin: 0 auto;
-     
- }
+     background-color: #0149a1;     
+}
 
- section.links {
-     width: 100%;
+.page-footer > .links {
+     display: flex;
+     justify-content: center;
+     padding-top: 90px;
+     margin: 0 400px;
+}
+
+.link-columns {
+     line-height: 36px;
+     font-size: 18px;
+     width: 200px;
      display: flex;
      flex-flow: column;
-     align-items: center;
+     flex-wrap: wrap;
+     text-transform: capitalize;
+     flex-basis: 25%;
+}
 
- }
+.links .link-columns a {
+     color: #fff;
+}
 
- .link-columns a {
-     margin-top: 20px;
- }
+.page-footer p {
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: flex-end;
+     justify-content: center;
+     padding-top: 120px;
+     font-size: 18px;
+     color: #fff;
+}
