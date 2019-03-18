@@ -537,7 +537,7 @@ section.google-maps {
 
 
 footer.page-footer {
-     height: 730px;
+     height: 630px;
      width: 100%;
      background-color: #0149a1;     
 }
@@ -545,19 +545,18 @@ footer.page-footer {
 .page-footer > .links {
      display: flex;
      justify-content: center;
-     padding-top: 90px;
-     margin: 0 400px;
+     padding-top: 30px;
 }
 
 .link-columns {
      line-height: 36px;
-     font-size: 18px;
+     font-size: 15px;
      width: 200px;
      display: flex;
      flex-flow: column;
      flex-wrap: wrap;
      text-transform: capitalize;
-     flex-basis: 25%;
+     text-align: center;
 }
 
 .links .link-columns a {
@@ -572,4 +571,5 @@ footer.page-footer {
      padding-top: 120px;
      font-size: 18px;
      color: #fff;
+     text-align: center;
 }
